@@ -1,0 +1,11 @@
+#Below commmand perform a few action.
+#1.Pull the image of mySQL from docker hub.
+#2.Mount bind the docker container to a local database file
+#3.Launch a new docker container with connectiong to external port of 54812.
+docker run -d -p 54812:3306 --name goMS1-mysql -v ~/goMicroService1Assignment/RESTAPI/my-mysql/sql-scripts:/docker-entrypoint-initdb.d/ -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=my_db_goMicroservice1 mysql:latest
+
+#To establish the TCP connection for mySQL
+mysql -P 54812 --protocol=tcp -u root -p
+
+#Password for docker mySQL
+password 
