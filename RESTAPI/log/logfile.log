@@ -1,7 +1,0 @@
-time="2021-04-14T11:26:48+08:00" level=panic msg="dial tcp 127.0.0.1:60759: connect: connection refused"
-time="2021-04-14T11:26:48+08:00" level=panic msg="Panic occured at console menu and recovered.&{0xc000268230 map[] 2021-04-14 11:26:48.774037 +0800 +08 m=+18.114409305 panic <nil> dial tcp 127.0.0.1:60759: connect: connection refused <nil> <nil> }"
-time="2021-04-14T11:27:40+08:00" level=panic msg="dial tcp 127.0.0.1:60759: connect: connection refused"
-time="2021-04-14T11:27:40+08:00" level=panic msg="Panic occured at console menu and recovered.&{0xc000268230 map[] 2021-04-14 11:27:40.387148 +0800 +08 m=+69.727245910 panic <nil> dial tcp 127.0.0.1:60759: connect: connection refused <nil> <nil> }"
-time="2021-04-14T21:16:19+08:00" level=panic msg="driver: bad connection"
-time="2021-04-14T21:31:42+08:00" level=panic msg="Error 1146: Table 'my_db_goMicroservice1.Course' doesn't exist"
-time="2021-04-15T16:22:24+08:00" level=warning msg="Fail attempt to get record: 404 - No course found"
